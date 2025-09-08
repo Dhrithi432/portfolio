@@ -14,7 +14,7 @@ function Lightswitch() {
             aria-label="Toggle dark mode"
         >
             <img
-                src={darkMode ? "../public/images/lightswitch-off.png" : "../public/images/lightswitch-on.png"}
+                src={darkMode ? "/portfolio/images/lightswitch-off.png" : "/portfolio/images/lightswitch-on.png"}
                 alt="Toggle dark mode"
                 className="w-8 h-8"
             />
