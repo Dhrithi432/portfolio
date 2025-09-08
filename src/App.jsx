@@ -15,16 +15,11 @@ function App() {
         <div className={darkMode ? "dark bg-gray-900 text-white" : "bg-white text-black"}>
 
             <Navbar />
-            {/* <div className="h-8"></div>  */}
             <Hero />
-            {/* <div className="h-8"></div>  */}
-            <Skills />
-            <Experience />
-            {/* <div className="h-8"></div>  */}
             <Projects />
+            <Experience />
+            <Skills />
             <Contact />
-            {/* <div className="h-8"></div>  */}
-            {/* <div className="h-8"></div>  */}
                         <Lightswitch />
         </div>
     );

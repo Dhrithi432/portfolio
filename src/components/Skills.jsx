@@ -1,94 +1,3 @@
-// import React from "react";
-
-// export default function Skills() {
-//   return (
-//     <section id="skills" className="px-12 py-20 border border-gray-700 rounded-lg">
-//       <h2 className="text-3xl font-semibold mb-12">Skills</h2>
-//       <div className="grid grid-cols-3 gap-12 text-center">
-//         <div>
-//           <h3 className="text-xl font-semibold mb-4">Frontend</h3>
-//           <p>React, Next.js, TypeScript, TailwindCSS</p>
-//         </div>
-//         <div>
-//           <h3 className="text-xl font-semibold mb-4">Backend</h3>
-//           <p>Node.js, Express, PostgreSQL, Prisma</p>
-//         </div>
-//         <div>
-//           <h3 className="text-xl font-semibold mb-4">DevOps</h3>
-//           <p>Docker, AWS Lambda, CI/CD, GitHub Actions</p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-// import React from "react";
-// import { motion } from "framer-motion";
-// import {
-//   SiPython, SiJavascript, SiTypescript, SiGo, SiMysql, SiMongodb, SiRedis,
-//   SiTensorflow, SiScikitlearn, SiDocker, SiKubernetes, 
-//   SiSpringboot, SiReact, SiAngular, SiNodedotjs, SiGit, SiJenkins, SiApachekafka, 
-//   SiPostman, SiFastapi, SiGraphql, SiJest
-// } from "react-icons/si";
-
-// const skills = {
-//   "Languages": [ SiPython, SiJavascript, SiTypescript, SiGo],
-//   "Frontend": [SiReact, SiAngular, SiNodedotjs],
-//   "Backend": [SiSpringboot, SiFastapi, SiGraphql],
-//   "Cloud": [SiDocker, SiKubernetes],
-//   "Database": [SiMysql, SiMongodb, SiRedis],
-//   "Tools": [SiGit, SiJenkins, SiPostman, SiJest, SiApachekafka],
-//   "AI/ML": [SiTensorflow, SiScikitlearn]
-// };
-
-// export default function Skills() {
-//   return (
-//     <section
-//       id="skills"
-//       className="mt-12 card rounded-[20px] p-6 border border-gray-700 max-w-6xl mx-auto"
-//     >
-//       <div className="mb-8 text-center">
-//         <p className="text-blue-600 text-lg font-semibold">03. What I Know</p>
-//         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mt-2">Technical Skills</h2>
-//       </div>
-
-//       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
-//         {Object.entries(skills).map(([category, icons], idx) => (
-//           <motion.div
-//             key={category}
-//             className="text-center"
-//             initial={{ opacity: 0, y: 20 }}
-//             animate={{ opacity: 1, y: 0 }}
-//             transition={{ delay: idx * 0.1 }}
-//           >
-//             <h3 className="text-sm font-semibold mb-4 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-gray-600 pb-2">
-//               {category}
-//             </h3>
-//             <div className="flex flex-col gap-3">
-//               {icons.map((Icon, i) => (
-//                 <motion.div
-//                   key={i}
-//                   className="flex justify-center"
-//                   whileHover={{ scale: 1.2, rotate: 5 }}
-//                   whileTap={{ scale: 0.9 }}
-//                 >
-//                   <Icon className="text-3xl text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200" />
-//                 </motion.div>
-//               ))}
-//             </div>
-//           </motion.div>
-//         ))}
-//       </div>
-
-//       {/* Compact additional skills */}
-//       <div className="mt-8 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-center">
-//         <p className="text-sm text-gray-600 dark:text-gray-400">
-//           <span className="font-semibold">Also experienced with:</span> HuggingFace • LangChain • RAG Systems • Microservices • CI/CD • Agile/SCRUM
-//         </p>
-//       </div>
-//     </section>
-//   );
-// }
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -205,13 +114,13 @@ export default function Skills() {
       id="skills"
       className="card rounded-[20px] sm:p-4 mt-4 max-w-4xl mx-auto"
     >
-      <div className="mb-8">
+      <div className="mb-8 ">
         <h2 className="text-4xl sm:text-2xl font-extrabold text-gray-900 dark:text-white font-sans mt-2 mb-4 border-b border-gray-200 dark:border-gray-700 pb-2">
           Technical Skills
         </h2>
       </div>
 
-      <div className="flex gap-0">
+      <div className="flex gap-0" >
         {/* Sidebar Tabs */}
         <div className="w-64 bg-gray-50 dark:bg-gray-800 rounded-l-lg border-r border-gray-200 dark:border-gray-700">
           <div className="p-4">

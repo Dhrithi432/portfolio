@@ -66,7 +66,6 @@ export default function Experience() {
   return (
     <section id="experience" className="card rounded-[20px] sm:p-4 mt-4 max-w-4xl mx-auto">
       <div className="mb-8">
-        {/* <p className="text-blue-600 text-lg font-semibold">02. Where I've Worked</p> */}
         <h2 className="text-4xl sm:text-2xl font-extrabold text-gray-900 dark:text-white font-sans mt-2 mb-4 border-b border-gray-200 dark:border-gray-700 pb-2">
           Experience
         </h2>
