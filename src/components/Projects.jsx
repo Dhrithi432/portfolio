@@ -250,7 +250,7 @@ export default function Projects() {
                                 {project.points.map((point, i) => (
                                     <li
                                         key={i}
-                                        className="flex items-start gap-3 text-gray-700 dark:text-gray-300 text-sm leading-relaxed animate-slide-up"
+                                        className="flex items-start gap-3 text-gray-700 dark:text-white text-sm leading-relaxed animate-slide-up"
                                         style={{
                                             animationDelay: `${i * 0.1 + 0.2}s`,
                                             animationFillMode: 'both'
