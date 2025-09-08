@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section id="projects" className="px-12 py-20">
-      <h2 className="text-3xl font-semibold mb-12 text-center">
+    <section id="projects" className="px-12 py-20 border border-gray-700 rounded-lg">
+      <h2 className="text-3xl font-semibold mb-12">
         Featured Projects
       </h2>
 
